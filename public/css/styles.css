@@ -94,7 +94,14 @@ button:disabled {
     color: white;
     background: #333744;
     width: 225px;
-    overflow-y: scroll
+    overflow-y: scroll;
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .chat__sidebar {
+        display: none;
+    }
 }
 
 /* Chat styles */
